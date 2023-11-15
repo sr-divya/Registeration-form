@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500&display=swap');
+
+.div1 {
+    background-color: #2b2a67;
+    justify-content: center;
+    padding: 20px 40px;
+    margin: 130px 540px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+body {
+    font-family: poppins;
+    background-color: rgb(82, 135, 203);
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(180deg,
+            hsl(275deg 79% 64%) 0%,
+            hsl(262deg 80% 69%) 20%,
+            hsl(244deg 81% 74%) 41%,
+            hsl(226deg 87% 72%) 60%,
+            hsl(213deg 92% 69%) 76%,
+            hsl(203deg 97% 63%) 89%,
+            hsl(194deg 100% 50%) 100%);
+
+}
+
+h2 {
+    color: white;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+input[type="text"] {
+    height: 35px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    padding-left: 20px;
+}
+
+input[type="email"] {
+    height: 35px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="password"] {
+    height: 35px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #4f9324;
+    height: 30px;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 150px;
+}
+
+label {
+    color: white;
+}
+a{
+    color: blue;
+}

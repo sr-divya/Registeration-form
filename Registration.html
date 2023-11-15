@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="div1">
+        <h2>Registration Form</h2><br>
+        <form method="post" name="form" autocomplete="off">
+            <input type="text" name="fname" placeholder="First Name"><br><br>
+            <input type="text" name="lname" placeholder="Last Name"> <br><br>
+            <input type="email" name="email" placeholder="Email"><br><br>
+            <input type="password" name="pass" placeholder="Password"><br><br><br>
+            <input type="checkbox" id="d1">
+            <label for="d1">I Agree to all <a href="#">terms</a> and <a href="#"> condition.</a> </label><br><br>
+            <input type="submit" name="submitbtn" value="Register" onclick="validateform()">
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
